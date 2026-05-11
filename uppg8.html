@@ -10,7 +10,35 @@ T.ex. hur man loopar eller gör if-satser i JS
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uppgift 8: Onward</title>
   </head>
-  <body></body>
+  <body> 
+     <h1>Jämna och udda tal</h1>
 
-  <script></script>
+    <div id="resultat"></div>
+
+    <script>
+
+        let resultat = document.getElementById("resultat");
+
+        for (let i = 1; i <= 10; i++) {
+
+            if (i % 2 === 0) {
+                resultat.innerHTML += i + " är jämnt <br>";
+            } else {
+                resultat.innerHTML += i + " är udda <br>";
+            }
+
+        }
+
+    </script>
+
+    
+
+    
+  
+  </body>
+
+
+
+
 </html>
+
